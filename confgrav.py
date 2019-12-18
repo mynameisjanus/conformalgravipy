@@ -17,7 +17,6 @@ class GeneralTensor(object):
     Represents tensor components objects in a particular Coordinate System.
     Tensor class should be extended rather than GeneralTensor class to create
     a new Tensor object.
-
     """
     GeneralTensorObjects = []
 
@@ -251,7 +250,7 @@ class GeneralTensor(object):
 
 
 class Coordinates(GeneralTensor):
-    r"""
+    """
     Represents a class of Coordinate n-vectors.
 
     Parameters
